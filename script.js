@@ -1,6 +1,6 @@
 //complete this code
 class Person {
-	#name = "John";
+	#name ;
 	#age;
 	constructor(name,age){
 		this.#name = name;
@@ -9,9 +9,7 @@ class Person {
 	get name(){
 		return this.#name
 	}
-	set name(name){
-		this.#name = name;
-	}
+
 	set age(age){
 		this.#age = age;
 	}
@@ -38,8 +36,7 @@ class Teacher extends Person {
 	}
 }
 
-const person = new Person("John", 30);
-console.log(person.name)
+
 
 
 // Do not change the code below this line
