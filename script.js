@@ -1,6 +1,6 @@
 //complete this code
 class Person {
-	#name;
+	#name = "John";
 	#age;
 	constructor(name,age){
 		this.#name = name;
